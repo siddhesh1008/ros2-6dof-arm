@@ -22,6 +22,7 @@ setup(
             'arm_driver = arm_driver.arm_driver_node:main',
             'teleop = arm_driver.teleop_node:main',
             'bridge = arm_driver.bridge_node:main',
+            'fake_controller = arm_driver.fake_controller_node:main',
         ],
     },
 )
